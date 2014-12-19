@@ -1,1310 +1,537 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>026C4B32BF3289155D283F9C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SlideNavigationContorllerAnimatorScale.h</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A2CF1FE771FC9C33680D38C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Hungary Radio Live-iOS-Slide-Menu-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A8F163A86E21E6D9AC6C901</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2EC937CDE1460B2E0EE7B046</string>
-				<string>D8E666702D7A1D9685700B4A</string>
-				<string>69629E27E3421E529B2E7986</string>
-				<string>6B97C974B9FC0633B62E5EFF</string>
-				<string>F139E32B18D90AC6EA81D2CE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D1EE26F9F3B944939E23BD7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Hungary Radio Live-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D96D62F24A63D95518B0ED6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>026C4B32BF3289155D283F9C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>17E8DB09B7F31FF0E7AFE766</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Hungary Radio Live-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1ED32237406D0011D7ED1DC4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SlideNavigationContorllerAnimatorSlideAndFade.h</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A3655482373000C4D73835B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Hungary Radio Live-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D4D885A555FF79201F62D88</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SlideNavigationContorllerAnimatorScaleAndFade.m</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2DEE62840DF4F9CB211A0FDA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6FADE029F87EBC9B7D219DA4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2EC937CDE1460B2E0EE7B046</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>33B66B3FD1A71EFB07A50F9D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>35082C9EB0CB90B3E5185FB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>384AE0EDAD35EE7248455628</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Hungary Radio Live-iOS-Slide-Menu.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>38AE49646D046B169F799E48</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>654B16ACF0484C27E1DBFBBB</string>
-				<string>BD24B09F0514437CEEF59D9E</string>
-				<string>741BC289AECC1287FF957787</string>
-				<string>4FBBBF8E9CF017A329C75B83</string>
-				<string>F8DF1FB7047BF39C2AA6F5FF</string>
-				<string>B600B16194071270DE905053</string>
-				<string>D7731887FC6FDCC0B956F0C8</string>
-				<string>A25D02FA82171EC5B84C4D38</string>
-				<string>A4D19E1CFE5C2A0FE32E7EC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3D25DAB03E425C8DA4EF8479</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>33B66B3FD1A71EFB07A50F9D</string>
-				<string>E649E50D6136F76ABAD7D814</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3DCE2A7941FF8E019D6040C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>menu-button@2x.png</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Assets/menu-button@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>446885BEA698823E7E60B98E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Hungary Radio Live-iOS-Slide-Menu-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>462822C93E5D9D890258DC67</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>624FAB40C8EFCF48A666AAC7</string>
-				<string>91EDDB21AD6DE9396717E8EC</string>
-				<string>CBED36FF41BF75C3590E8295</string>
-				<string>026C4B32BF3289155D283F9C</string>
-				<string>A5181401E41BDD072F8FE027</string>
-				<string>49D2D8546894CA56A44104A2</string>
-				<string>2D4D885A555FF79201F62D88</string>
-				<string>5D003971676B0B41D1FF938C</string>
-				<string>9BEBD628F1CD1A556E79775C</string>
-				<string>1ED32237406D0011D7ED1DC4</string>
-				<string>F07EA19A3DF1176DF2341411</string>
-				<string>6253BAA11A9196BDF919B5E6</string>
-				<string>816771346CFFC1E37C52446E</string>
-				<string>7F6D3EFF08A3D35B75CE1C89</string>
-				<string>3DCE2A7941FF8E019D6040C4</string>
-				<string>35082C9EB0CB90B3E5185FB0</string>
-				<string>996E695A517803CD8E67127F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS-Slide-Menu</string>
-			<key>path</key>
-			<string>iOS-Slide-Menu</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>49D2D8546894CA56A44104A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SlideNavigationContorllerAnimatorScaleAndFade.h</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A3AA1A6B9B26F19DF90BFD9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Hungary Radio Live.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4D81035FE5C2DD9A1EE06EE9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0A2CF1FE771FC9C33680D38C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Hungary Radio Live-iOS-Slide-Menu/Pods-Hungary Radio Live-iOS-Slide-Menu-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4F58DBF01113BA2CCDB20219</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>F2B332DEF259342C8720129F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>EE7E62D3E0DE0A98E5911771</string>
-			<key>remoteInfo</key>
-			<string>Pods-Hungary Radio Live-iOS-Slide-Menu</string>
-		</dict>
-		<key>4FBBBF8E9CF017A329C75B83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D4D885A555FF79201F62D88</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>584AABAEAC14B748030BD2F7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98B811807644AFE92A89715E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5D003971676B0B41D1FF938C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SlideNavigationContorllerAnimatorSlide.h</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FA6CF91A0431983DD8239E0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6253BAA11A9196BDF919B5E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>624FAB40C8EFCF48A666AAC7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SlideNavigationContorllerAnimator.h</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6253BAA11A9196BDF919B5E6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SlideNavigationController.h</string>
-			<key>path</key>
-			<string>SlideMenu/Source/SlideNavigationController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62EE7B4B15577DA14A69D801</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B877CA3B634A8DEACC587B24</string>
-				<string>4D81035FE5C2DD9A1EE06EE9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>634A7BF532EF434FC8B29233</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>654B16ACF0484C27E1DBFBBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B5AE8E2246A82D3A144F8E8F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66A1F9970DBBE3A9215AA332</key>
-		<dict>
-			<key>fileRef</key>
-			<string>33B66B3FD1A71EFB07A50F9D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>69629E27E3421E529B2E7986</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>462822C93E5D9D890258DC67</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6B97C974B9FC0633B62E5EFF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4A3AA1A6B9B26F19DF90BFD9</string>
-				<string>384AE0EDAD35EE7248455628</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C45923BD1E2295D9C32C51D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>33B66B3FD1A71EFB07A50F9D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6FADE029F87EBC9B7D219DA4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A3655482373000C4D73835B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7415DD6739FD3B3328A69A1C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>49D2D8546894CA56A44104A2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>741BC289AECC1287FF957787</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A5181401E41BDD072F8FE027</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>78F93EEA798D1CCC09A9C4CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7D8F5ED3F41AD171F076042B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7F3FD252617F879234EACABE</string>
-				<string>B77CD6C123BF56FA36701568</string>
-				<string>0D96D62F24A63D95518B0ED6</string>
-				<string>7415DD6739FD3B3328A69A1C</string>
-				<string>85D183308AC204552F7B0478</string>
-				<string>9A4E40502CBB22AA4F606BE7</string>
-				<string>5FA6CF91A0431983DD8239E0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7F3FD252617F879234EACABE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>624FAB40C8EFCF48A666AAC7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7F6D3EFF08A3D35B75CE1C89</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>menu-button.png</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Assets/menu-button.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F9FE042BAA063EFB72EB3FC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Hungary Radio Live-iOS-Slide-Menu.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>81148FFFCE7C3E43C5A037BB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6C45923BD1E2295D9C32C51D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>816771346CFFC1E37C52446E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SlideNavigationController.m</string>
-			<key>path</key>
-			<string>SlideMenu/Source/SlideNavigationController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85D183308AC204552F7B0478</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D003971676B0B41D1FF938C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8A2FE5C5015CC4572661DA37</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>17E8DB09B7F31FF0E7AFE766</string>
-				<string>CCB38BC4D1D52482029FC602</string>
-				<string>2A3655482373000C4D73835B</string>
-				<string>0D1EE26F9F3B944939E23BD7</string>
-				<string>917564A936D84B93375F69AE</string>
-				<string>98B811807644AFE92A89715E</string>
-				<string>EC2D4EFCB9A4419DA4CD8F7A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Hungary Radio Live</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Hungary Radio Live</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>917564A936D84B93375F69AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Hungary Radio Live-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>91DA7D5CE82CFDCCB6081E18</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>584AABAEAC14B748030BD2F7</string>
-				<string>9393076D1568180154410045</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>91EDDB21AD6DE9396717E8EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SlideNavigationContorllerAnimatorFade.h</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9393076D1568180154410045</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EC2D4EFCB9A4419DA4CD8F7A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>956E6CDE39A79638822297D9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E649E50D6136F76ABAD7D814</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>98B811807644AFE92A89715E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Hungary Radio Live.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>996E695A517803CD8E67127F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7F9FE042BAA063EFB72EB3FC</string>
-				<string>0A2CF1FE771FC9C33680D38C</string>
-				<string>B5AE8E2246A82D3A144F8E8F</string>
-				<string>446885BEA698823E7E60B98E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-Hungary Radio Live-iOS-Slide-Menu</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A4E40502CBB22AA4F606BE7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1ED32237406D0011D7ED1DC4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9BEBD628F1CD1A556E79775C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SlideNavigationContorllerAnimatorSlide.m</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A25D02FA82171EC5B84C4D38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7F6D3EFF08A3D35B75CE1C89</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A4D19E1CFE5C2A0FE32E7EC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3DCE2A7941FF8E019D6040C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A5181401E41BDD072F8FE027</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SlideNavigationContorllerAnimatorScale.m</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A63B4490966A2B1569479CA1</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>634A7BF532EF434FC8B29233</string>
-				<string>78F93EEA798D1CCC09A9C4CA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B5AE8E2246A82D3A144F8E8F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Hungary Radio Live-iOS-Slide-Menu-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B600B16194071270DE905053</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F07EA19A3DF1176DF2341411</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B77CD6C123BF56FA36701568</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91EDDB21AD6DE9396717E8EC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B877CA3B634A8DEACC587B24</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0A2CF1FE771FC9C33680D38C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Hungary Radio Live-iOS-Slide-Menu/Pods-Hungary Radio Live-iOS-Slide-Menu-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BD24B09F0514437CEEF59D9E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CBED36FF41BF75C3590E8295</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CBED36FF41BF75C3590E8295</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SlideNavigationContorllerAnimatorFade.m</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CCB38BC4D1D52482029FC602</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Hungary Radio Live-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D7731887FC6FDCC0B956F0C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>816771346CFFC1E37C52446E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D8E666702D7A1D9685700B4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3D25DAB03E425C8DA4EF8479</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DA169466D127C485F7FC72F4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>66A1F9970DBBE3A9215AA332</string>
-				<string>956E6CDE39A79638822297D9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E649E50D6136F76ABAD7D814</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>EC2D4EFCB9A4419DA4CD8F7A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Hungary Radio Live.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EE7E62D3E0DE0A98E5911771</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>62EE7B4B15577DA14A69D801</string>
-			<key>buildPhases</key>
-			<array>
-				<string>38AE49646D046B169F799E48</string>
-				<string>DA169466D127C485F7FC72F4</string>
-				<string>7D8F5ED3F41AD171F076042B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Hungary Radio Live-iOS-Slide-Menu</string>
-			<key>productName</key>
-			<string>Pods-Hungary Radio Live-iOS-Slide-Menu</string>
-			<key>productReference</key>
-			<string>384AE0EDAD35EE7248455628</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>EF8BCC1A507EED1F0ED44E8C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>91DA7D5CE82CFDCCB6081E18</string>
-			<key>buildPhases</key>
-			<array>
-				<string>2DEE62840DF4F9CB211A0FDA</string>
-				<string>81148FFFCE7C3E43C5A037BB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>F94AF1E49A2138B784B0408A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Hungary Radio Live</string>
-			<key>productName</key>
-			<string>Pods-Hungary Radio Live</string>
-			<key>productReference</key>
-			<string>4A3AA1A6B9B26F19DF90BFD9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>F07EA19A3DF1176DF2341411</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SlideNavigationContorllerAnimatorSlideAndFade.m</string>
-			<key>path</key>
-			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F139E32B18D90AC6EA81D2CE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8A2FE5C5015CC4572661DA37</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F2B332DEF259342C8720129F</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>A63B4490966A2B1569479CA1</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>0A8F163A86E21E6D9AC6C901</string>
-			<key>productRefGroup</key>
-			<string>6B97C974B9FC0633B62E5EFF</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>EF8BCC1A507EED1F0ED44E8C</string>
-				<string>EE7E62D3E0DE0A98E5911771</string>
-			</array>
-		</dict>
-		<key>F8DF1FB7047BF39C2AA6F5FF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9BEBD628F1CD1A556E79775C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F94AF1E49A2138B784B0408A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Hungary Radio Live-iOS-Slide-Menu</string>
-			<key>target</key>
-			<string>EE7E62D3E0DE0A98E5911771</string>
-			<key>targetProxy</key>
-			<string>4F58DBF01113BA2CCDB20219</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>F2B332DEF259342C8720129F</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D96D62F24A63D95518B0ED6 /* SlideNavigationContorllerAnimatorScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 026C4B32BF3289155D283F9C /* SlideNavigationContorllerAnimatorScale.h */; };
+		4FBBBF8E9CF017A329C75B83 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4D885A555FF79201F62D88 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		5FA6CF91A0431983DD8239E0 /* SlideNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6253BAA11A9196BDF919B5E6 /* SlideNavigationController.h */; };
+		654B16ACF0484C27E1DBFBBB /* Pods-Hungary Radio Live-iOS-Slide-Menu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AE8E2246A82D3A144F8E8F /* Pods-Hungary Radio Live-iOS-Slide-Menu-dummy.m */; };
+		66A1F9970DBBE3A9215AA332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B66B3FD1A71EFB07A50F9D /* Foundation.framework */; };
+		6C45923BD1E2295D9C32C51D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B66B3FD1A71EFB07A50F9D /* Foundation.framework */; };
+		6FADE029F87EBC9B7D219DA4 /* Pods-Hungary Radio Live-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3655482373000C4D73835B /* Pods-Hungary Radio Live-dummy.m */; };
+		7415DD6739FD3B3328A69A1C /* SlideNavigationContorllerAnimatorScaleAndFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D2D8546894CA56A44104A2 /* SlideNavigationContorllerAnimatorScaleAndFade.h */; };
+		741BC289AECC1287FF957787 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = A5181401E41BDD072F8FE027 /* SlideNavigationContorllerAnimatorScale.m */; };
+		7F3FD252617F879234EACABE /* SlideNavigationContorllerAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 624FAB40C8EFCF48A666AAC7 /* SlideNavigationContorllerAnimator.h */; };
+		85D183308AC204552F7B0478 /* SlideNavigationContorllerAnimatorSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D003971676B0B41D1FF938C /* SlideNavigationContorllerAnimatorSlide.h */; };
+		956E6CDE39A79638822297D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E649E50D6136F76ABAD7D814 /* UIKit.framework */; };
+		9A4E40502CBB22AA4F606BE7 /* SlideNavigationContorllerAnimatorSlideAndFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED32237406D0011D7ED1DC4 /* SlideNavigationContorllerAnimatorSlideAndFade.h */; };
+		A25D02FA82171EC5B84C4D38 /* menu-button.png in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D3EFF08A3D35B75CE1C89 /* menu-button.png */; };
+		A4D19E1CFE5C2A0FE32E7EC5 /* menu-button@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE2A7941FF8E019D6040C4 /* menu-button@2x.png */; };
+		B600B16194071270DE905053 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = F07EA19A3DF1176DF2341411 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		B77CD6C123BF56FA36701568 /* SlideNavigationContorllerAnimatorFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EDDB21AD6DE9396717E8EC /* SlideNavigationContorllerAnimatorFade.h */; };
+		BD24B09F0514437CEEF59D9E /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED36FF41BF75C3590E8295 /* SlideNavigationContorllerAnimatorFade.m */; };
+		D7731887FC6FDCC0B956F0C8 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816771346CFFC1E37C52446E /* SlideNavigationController.m */; };
+		F8DF1FB7047BF39C2AA6F5FF /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEBD628F1CD1A556E79775C /* SlideNavigationContorllerAnimatorSlide.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F58DBF01113BA2CCDB20219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B332DEF259342C8720129F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7E62D3E0DE0A98E5911771;
+			remoteInfo = "Pods-Hungary Radio Live-iOS-Slide-Menu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026C4B32BF3289155D283F9C /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScale.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		0A2CF1FE771FC9C33680D38C /* Pods-Hungary Radio Live-iOS-Slide-Menu-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hungary Radio Live-iOS-Slide-Menu-Private.xcconfig"; sourceTree = "<group>"; };
+		0D1EE26F9F3B944939E23BD7 /* Pods-Hungary Radio Live-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hungary Radio Live-environment.h"; sourceTree = "<group>"; };
+		17E8DB09B7F31FF0E7AFE766 /* Pods-Hungary Radio Live-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hungary Radio Live-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1ED32237406D0011D7ED1DC4 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlideAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		2A3655482373000C4D73835B /* Pods-Hungary Radio Live-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hungary Radio Live-dummy.m"; sourceTree = "<group>"; };
+		2D4D885A555FF79201F62D88 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScaleAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		2EC937CDE1460B2E0EE7B046 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33B66B3FD1A71EFB07A50F9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		384AE0EDAD35EE7248455628 /* libPods-Hungary Radio Live-iOS-Slide-Menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hungary Radio Live-iOS-Slide-Menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCE2A7941FF8E019D6040C4 /* menu-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button@2x.png"; path = "SlideMenu/Source/Assets/menu-button@2x.png"; sourceTree = "<group>"; };
+		446885BEA698823E7E60B98E /* Pods-Hungary Radio Live-iOS-Slide-Menu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hungary Radio Live-iOS-Slide-Menu-prefix.pch"; sourceTree = "<group>"; };
+		49D2D8546894CA56A44104A2 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScaleAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		4A3AA1A6B9B26F19DF90BFD9 /* libPods-Hungary Radio Live.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hungary Radio Live.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D003971676B0B41D1FF938C /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlide.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		624FAB40C8EFCF48A666AAC7 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimator.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		6253BAA11A9196BDF919B5E6 /* SlideNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationController.h; path = SlideMenu/Source/SlideNavigationController.h; sourceTree = "<group>"; };
+		7F6D3EFF08A3D35B75CE1C89 /* menu-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button.png"; path = "SlideMenu/Source/Assets/menu-button.png"; sourceTree = "<group>"; };
+		7F9FE042BAA063EFB72EB3FC /* Pods-Hungary Radio Live-iOS-Slide-Menu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hungary Radio Live-iOS-Slide-Menu.xcconfig"; sourceTree = "<group>"; };
+		816771346CFFC1E37C52446E /* SlideNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationController.m; path = SlideMenu/Source/SlideNavigationController.m; sourceTree = "<group>"; };
+		917564A936D84B93375F69AE /* Pods-Hungary Radio Live-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hungary Radio Live-resources.sh"; sourceTree = "<group>"; };
+		91EDDB21AD6DE9396717E8EC /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		98B811807644AFE92A89715E /* Pods-Hungary Radio Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hungary Radio Live.debug.xcconfig"; sourceTree = "<group>"; };
+		9BEBD628F1CD1A556E79775C /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlide.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		A5181401E41BDD072F8FE027 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScale.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		B5AE8E2246A82D3A144F8E8F /* Pods-Hungary Radio Live-iOS-Slide-Menu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hungary Radio Live-iOS-Slide-Menu-dummy.m"; sourceTree = "<group>"; };
+		CBED36FF41BF75C3590E8295 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		CCB38BC4D1D52482029FC602 /* Pods-Hungary Radio Live-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hungary Radio Live-acknowledgements.plist"; sourceTree = "<group>"; };
+		E649E50D6136F76ABAD7D814 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC2D4EFCB9A4419DA4CD8F7A /* Pods-Hungary Radio Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hungary Radio Live.release.xcconfig"; sourceTree = "<group>"; };
+		F07EA19A3DF1176DF2341411 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlideAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81148FFFCE7C3E43C5A037BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C45923BD1E2295D9C32C51D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA169466D127C485F7FC72F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A1F9970DBBE3A9215AA332 /* Foundation.framework in Frameworks */,
+				956E6CDE39A79638822297D9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A8F163A86E21E6D9AC6C901 = {
+			isa = PBXGroup;
+			children = (
+				2EC937CDE1460B2E0EE7B046 /* Podfile */,
+				D8E666702D7A1D9685700B4A /* Frameworks */,
+				69629E27E3421E529B2E7986 /* Pods */,
+				6B97C974B9FC0633B62E5EFF /* Products */,
+				F139E32B18D90AC6EA81D2CE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		35082C9EB0CB90B3E5185FB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D25DAB03E425C8DA4EF8479 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33B66B3FD1A71EFB07A50F9D /* Foundation.framework */,
+				E649E50D6136F76ABAD7D814 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		462822C93E5D9D890258DC67 /* iOS-Slide-Menu */ = {
+			isa = PBXGroup;
+			children = (
+				624FAB40C8EFCF48A666AAC7 /* SlideNavigationContorllerAnimator.h */,
+				91EDDB21AD6DE9396717E8EC /* SlideNavigationContorllerAnimatorFade.h */,
+				CBED36FF41BF75C3590E8295 /* SlideNavigationContorllerAnimatorFade.m */,
+				026C4B32BF3289155D283F9C /* SlideNavigationContorllerAnimatorScale.h */,
+				A5181401E41BDD072F8FE027 /* SlideNavigationContorllerAnimatorScale.m */,
+				49D2D8546894CA56A44104A2 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				2D4D885A555FF79201F62D88 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				5D003971676B0B41D1FF938C /* SlideNavigationContorllerAnimatorSlide.h */,
+				9BEBD628F1CD1A556E79775C /* SlideNavigationContorllerAnimatorSlide.m */,
+				1ED32237406D0011D7ED1DC4 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				F07EA19A3DF1176DF2341411 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+				6253BAA11A9196BDF919B5E6 /* SlideNavigationController.h */,
+				816771346CFFC1E37C52446E /* SlideNavigationController.m */,
+				7F6D3EFF08A3D35B75CE1C89 /* menu-button.png */,
+				3DCE2A7941FF8E019D6040C4 /* menu-button@2x.png */,
+				35082C9EB0CB90B3E5185FB0 /* Resources */,
+				996E695A517803CD8E67127F /* Support Files */,
+			);
+			path = "iOS-Slide-Menu";
+			sourceTree = "<group>";
+		};
+		69629E27E3421E529B2E7986 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				462822C93E5D9D890258DC67 /* iOS-Slide-Menu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B97C974B9FC0633B62E5EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AA1A6B9B26F19DF90BFD9 /* libPods-Hungary Radio Live.a */,
+				384AE0EDAD35EE7248455628 /* libPods-Hungary Radio Live-iOS-Slide-Menu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A2FE5C5015CC4572661DA37 /* Pods-Hungary Radio Live */ = {
+			isa = PBXGroup;
+			children = (
+				17E8DB09B7F31FF0E7AFE766 /* Pods-Hungary Radio Live-acknowledgements.markdown */,
+				CCB38BC4D1D52482029FC602 /* Pods-Hungary Radio Live-acknowledgements.plist */,
+				2A3655482373000C4D73835B /* Pods-Hungary Radio Live-dummy.m */,
+				0D1EE26F9F3B944939E23BD7 /* Pods-Hungary Radio Live-environment.h */,
+				917564A936D84B93375F69AE /* Pods-Hungary Radio Live-resources.sh */,
+				98B811807644AFE92A89715E /* Pods-Hungary Radio Live.debug.xcconfig */,
+				EC2D4EFCB9A4419DA4CD8F7A /* Pods-Hungary Radio Live.release.xcconfig */,
+			);
+			name = "Pods-Hungary Radio Live";
+			path = "Target Support Files/Pods-Hungary Radio Live";
+			sourceTree = "<group>";
+		};
+		996E695A517803CD8E67127F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F9FE042BAA063EFB72EB3FC /* Pods-Hungary Radio Live-iOS-Slide-Menu.xcconfig */,
+				0A2CF1FE771FC9C33680D38C /* Pods-Hungary Radio Live-iOS-Slide-Menu-Private.xcconfig */,
+				B5AE8E2246A82D3A144F8E8F /* Pods-Hungary Radio Live-iOS-Slide-Menu-dummy.m */,
+				446885BEA698823E7E60B98E /* Pods-Hungary Radio Live-iOS-Slide-Menu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Hungary Radio Live-iOS-Slide-Menu";
+			sourceTree = "<group>";
+		};
+		D8E666702D7A1D9685700B4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D25DAB03E425C8DA4EF8479 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F139E32B18D90AC6EA81D2CE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A2FE5C5015CC4572661DA37 /* Pods-Hungary Radio Live */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D8F5ED3F41AD171F076042B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3FD252617F879234EACABE /* SlideNavigationContorllerAnimator.h in Headers */,
+				B77CD6C123BF56FA36701568 /* SlideNavigationContorllerAnimatorFade.h in Headers */,
+				0D96D62F24A63D95518B0ED6 /* SlideNavigationContorllerAnimatorScale.h in Headers */,
+				7415DD6739FD3B3328A69A1C /* SlideNavigationContorllerAnimatorScaleAndFade.h in Headers */,
+				85D183308AC204552F7B0478 /* SlideNavigationContorllerAnimatorSlide.h in Headers */,
+				9A4E40502CBB22AA4F606BE7 /* SlideNavigationContorllerAnimatorSlideAndFade.h in Headers */,
+				5FA6CF91A0431983DD8239E0 /* SlideNavigationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EE7E62D3E0DE0A98E5911771 /* Pods-Hungary Radio Live-iOS-Slide-Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62EE7B4B15577DA14A69D801 /* Build configuration list for PBXNativeTarget "Pods-Hungary Radio Live-iOS-Slide-Menu" */;
+			buildPhases = (
+				38AE49646D046B169F799E48 /* Sources */,
+				DA169466D127C485F7FC72F4 /* Frameworks */,
+				7D8F5ED3F41AD171F076042B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Hungary Radio Live-iOS-Slide-Menu";
+			productName = "Pods-Hungary Radio Live-iOS-Slide-Menu";
+			productReference = 384AE0EDAD35EE7248455628 /* libPods-Hungary Radio Live-iOS-Slide-Menu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EF8BCC1A507EED1F0ED44E8C /* Pods-Hungary Radio Live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DA7D5CE82CFDCCB6081E18 /* Build configuration list for PBXNativeTarget "Pods-Hungary Radio Live" */;
+			buildPhases = (
+				2DEE62840DF4F9CB211A0FDA /* Sources */,
+				81148FFFCE7C3E43C5A037BB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F94AF1E49A2138B784B0408A /* PBXTargetDependency */,
+			);
+			name = "Pods-Hungary Radio Live";
+			productName = "Pods-Hungary Radio Live";
+			productReference = 4A3AA1A6B9B26F19DF90BFD9 /* libPods-Hungary Radio Live.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2B332DEF259342C8720129F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A63B4490966A2B1569479CA1 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A8F163A86E21E6D9AC6C901;
+			productRefGroup = 6B97C974B9FC0633B62E5EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8BCC1A507EED1F0ED44E8C /* Pods-Hungary Radio Live */,
+				EE7E62D3E0DE0A98E5911771 /* Pods-Hungary Radio Live-iOS-Slide-Menu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DEE62840DF4F9CB211A0FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FADE029F87EBC9B7D219DA4 /* Pods-Hungary Radio Live-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AE49646D046B169F799E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654B16ACF0484C27E1DBFBBB /* Pods-Hungary Radio Live-iOS-Slide-Menu-dummy.m in Sources */,
+				BD24B09F0514437CEEF59D9E /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				741BC289AECC1287FF957787 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				4FBBBF8E9CF017A329C75B83 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				F8DF1FB7047BF39C2AA6F5FF /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				B600B16194071270DE905053 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				D7731887FC6FDCC0B956F0C8 /* SlideNavigationController.m in Sources */,
+				A25D02FA82171EC5B84C4D38 /* menu-button.png in Sources */,
+				A4D19E1CFE5C2A0FE32E7EC5 /* menu-button@2x.png in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F94AF1E49A2138B784B0408A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Hungary Radio Live-iOS-Slide-Menu";
+			target = EE7E62D3E0DE0A98E5911771 /* Pods-Hungary Radio Live-iOS-Slide-Menu */;
+			targetProxy = 4F58DBF01113BA2CCDB20219 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D81035FE5C2DD9A1EE06EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A2CF1FE771FC9C33680D38C /* Pods-Hungary Radio Live-iOS-Slide-Menu-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Hungary Radio Live-iOS-Slide-Menu/Pods-Hungary Radio Live-iOS-Slide-Menu-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		584AABAEAC14B748030BD2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B811807644AFE92A89715E /* Pods-Hungary Radio Live.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		634A7BF532EF434FC8B29233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		78F93EEA798D1CCC09A9C4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9393076D1568180154410045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2D4EFCB9A4419DA4CD8F7A /* Pods-Hungary Radio Live.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B877CA3B634A8DEACC587B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A2CF1FE771FC9C33680D38C /* Pods-Hungary Radio Live-iOS-Slide-Menu-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Hungary Radio Live-iOS-Slide-Menu/Pods-Hungary Radio Live-iOS-Slide-Menu-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62EE7B4B15577DA14A69D801 /* Build configuration list for PBXNativeTarget "Pods-Hungary Radio Live-iOS-Slide-Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B877CA3B634A8DEACC587B24 /* Debug */,
+				4D81035FE5C2DD9A1EE06EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DA7D5CE82CFDCCB6081E18 /* Build configuration list for PBXNativeTarget "Pods-Hungary Radio Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584AABAEAC14B748030BD2F7 /* Debug */,
+				9393076D1568180154410045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63B4490966A2B1569479CA1 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634A7BF532EF434FC8B29233 /* Debug */,
+				78F93EEA798D1CCC09A9C4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2B332DEF259342C8720129F /* Project object */;
+}
