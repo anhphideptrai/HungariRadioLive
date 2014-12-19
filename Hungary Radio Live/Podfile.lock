@@ -1,0 +1,10 @@
+PODS:
+  - iOS-Slide-Menu (1.4.4)
+
+DEPENDENCIES:
+  - iOS-Slide-Menu (= 1.4.4)
+
+SPEC CHECKSUMS:
+  iOS-Slide-Menu: 7891c4e4180aac2b23fb2e5459ff61b8691a8496
+
+COCOAPODS: 0.35.0

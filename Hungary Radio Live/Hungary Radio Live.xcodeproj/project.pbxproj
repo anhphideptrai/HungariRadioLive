@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2C94D331A4484A200B9CA95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C94D321A4484A200B9CA95 /* main.m */; };
+		B2C94D361A4484A200B9CA95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C94D351A4484A200B9CA95 /* AppDelegate.m */; };
+		B2C94D3E1A4484A200B9CA95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C94D3D1A4484A200B9CA95 /* Images.xcassets */; };
+		B2C94D411A4484A200B9CA95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C94D3F1A4484A200B9CA95 /* LaunchScreen.xib */; };
+		BF6C6B02266DBB9594FE65F8 /* libPods-Hungary Radio Live.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860DE5E5C5541AE954AD6101 /* libPods-Hungary Radio Live.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		079CBC1A40A030B924A03942 /* Pods-Hungary Radio Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hungary Radio Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hungary Radio Live/Pods-Hungary Radio Live.debug.xcconfig"; sourceTree = "<group>"; };
+		860DE5E5C5541AE954AD6101 /* libPods-Hungary Radio Live.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hungary Radio Live.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C94D2D1A4484A200B9CA95 /* Hungary Radio Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hungary Radio Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C94D311A4484A200B9CA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C94D321A4484A200B9CA95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2C94D341A4484A200B9CA95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2C94D351A4484A200B9CA95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2C94D3D1A4484A200B9CA95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2C94D401A4484A200B9CA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C169AA8E78D8B9430F7074EF /* Pods-Hungary Radio Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hungary Radio Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hungary Radio Live/Pods-Hungary Radio Live.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2C94D2A1A4484A200B9CA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6C6B02266DBB9594FE65F8 /* libPods-Hungary Radio Live.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		890430AC979C393335A2815F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				860DE5E5C5541AE954AD6101 /* libPods-Hungary Radio Live.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD034D50F76469E1B3A2C877 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				079CBC1A40A030B924A03942 /* Pods-Hungary Radio Live.debug.xcconfig */,
+				C169AA8E78D8B9430F7074EF /* Pods-Hungary Radio Live.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2C94D241A4484A200B9CA95 = {
+			isa = PBXGroup;
+			children = (
+				B2C94D2F1A4484A200B9CA95 /* Hungary Radio Live */,
+				B2C94D2E1A4484A200B9CA95 /* Products */,
+				AD034D50F76469E1B3A2C877 /* Pods */,
+				890430AC979C393335A2815F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2C94D2E1A4484A200B9CA95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2C94D2D1A4484A200B9CA95 /* Hungary Radio Live.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C94D2F1A4484A200B9CA95 /* Hungary Radio Live */ = {
+			isa = PBXGroup;
+			children = (
+				B2C94D341A4484A200B9CA95 /* AppDelegate.h */,
+				B2C94D351A4484A200B9CA95 /* AppDelegate.m */,
+				B2C94D3D1A4484A200B9CA95 /* Images.xcassets */,
+				B2C94D3F1A4484A200B9CA95 /* LaunchScreen.xib */,
+				B2C94D301A4484A200B9CA95 /* Supporting Files */,
+			);
+			path = "Hungary Radio Live";
+			sourceTree = "<group>";
+		};
+		B2C94D301A4484A200B9CA95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2C94D311A4484A200B9CA95 /* Info.plist */,
+				B2C94D321A4484A200B9CA95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2C94D2C1A4484A200B9CA95 /* Hungary Radio Live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C94D501A4484A200B9CA95 /* Build configuration list for PBXNativeTarget "Hungary Radio Live" */;
+			buildPhases = (
+				4130381497CE9821E5DBF022 /* Check Pods Manifest.lock */,
+				B2C94D291A4484A200B9CA95 /* Sources */,
+				B2C94D2A1A4484A200B9CA95 /* Frameworks */,
+				B2C94D2B1A4484A200B9CA95 /* Resources */,
+				19E1B334DDF1B2C58157B55E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hungary Radio Live";
+			productName = "Hungary Radio Live";
+			productReference = B2C94D2D1A4484A200B9CA95 /* Hungary Radio Live.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2C94D251A4484A200B9CA95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Thien Nguyen";
+				TargetAttributes = {
+					B2C94D2C1A4484A200B9CA95 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = B2C94D281A4484A200B9CA95 /* Build configuration list for PBXProject "Hungary Radio Live" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2C94D241A4484A200B9CA95;
+			productRefGroup = B2C94D2E1A4484A200B9CA95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2C94D2C1A4484A200B9CA95 /* Hungary Radio Live */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2C94D2B1A4484A200B9CA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C94D411A4484A200B9CA95 /* LaunchScreen.xib in Resources */,
+				B2C94D3E1A4484A200B9CA95 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19E1B334DDF1B2C58157B55E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hungary Radio Live/Pods-Hungary Radio Live-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4130381497CE9821E5DBF022 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2C94D291A4484A200B9CA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C94D361A4484A200B9CA95 /* AppDelegate.m in Sources */,
+				B2C94D331A4484A200B9CA95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2C94D3F1A4484A200B9CA95 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C94D401A4484A200B9CA95 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2C94D4E1A4484A200B9CA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C94D4F1A4484A200B9CA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2C94D511A4484A200B9CA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079CBC1A40A030B924A03942 /* Pods-Hungary Radio Live.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hungary Radio Live/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2C94D521A4484A200B9CA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C169AA8E78D8B9430F7074EF /* Pods-Hungary Radio Live.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hungary Radio Live/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2C94D281A4484A200B9CA95 /* Build configuration list for PBXProject "Hungary Radio Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C94D4E1A4484A200B9CA95 /* Debug */,
+				B2C94D4F1A4484A200B9CA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C94D501A4484A200B9CA95 /* Build configuration list for PBXNativeTarget "Hungary Radio Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C94D511A4484A200B9CA95 /* Debug */,
+				B2C94D521A4484A200B9CA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2C94D251A4484A200B9CA95 /* Project object */;
+}
