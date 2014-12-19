@@ -8,6 +8,7 @@
 
 #ifndef Hungary_Radio_Live_Constants_h
 #define Hungary_Radio_Live_Constants_h
-#define TEST_TEST @"TEST......."
-
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define MAIN_XIB_FILE_NAME (IS_IPAD ? @"iPad_MainViewController" : @"iPhone_MainViewController")
+#define CHANNELS_XIB_FILE_NAME (IS_IPAD ? @"iPad_ChannelsViewController" : @"iPhone_ChannelsViewController")
 #endif

@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ChannelsViewController.h"
+#import "SlideNavigationController.h"
+#import "MainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.navController = [[SlideNavigationController alloc] init];
+    ChannelsViewController *leftMenu = [[ChannelsViewController alloc] initWithNibName:CHANNELS_XIB_FILE_NAME bundle:nil];
+    [SlideNavigationController sharedInstance].leftMenu = leftMenu;
+    MainViewController *mainVC = [[MainViewController alloc] initWithNibName:MAIN_XIB_FILE_NAME bundle:nil];
+    [self.navController addChildViewController:mainVC];
+    self.window.rootViewController = self.navController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
