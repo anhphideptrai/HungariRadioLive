@@ -9,7 +9,17 @@
 #import "MainViewController.h"
 
 @interface MainViewController ()
+@property (strong, nonatomic) IBOutlet UIButton *btChannel;
+@property (strong, nonatomic) IBOutlet UISlider *sldVolume;
+@property (strong, nonatomic) IBOutlet UIButton *btPlayOrPause;
+@property (strong, nonatomic) IBOutlet UIButton *btPrevious;
+@property (strong, nonatomic) IBOutlet UIButton *btNext;
 
+- (IBAction)actionClickBTChannel:(id)sender;
+- (IBAction)actionChangedVolume:(id)sender;
+- (IBAction)actionClickBTPlayOrPause:(id)sender;
+- (IBAction)actionBTPrevious:(id)sender;
+- (IBAction)actionBTNext:(id)sender;
 @end
 
 @implementation MainViewController
@@ -17,11 +27,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[self navigationController] setNavigationBarHidden:YES animated:YES];
     [self.view setBackgroundColor:[UIColor grayColor]];
     [self indexFromPixels:[SlideNavigationController sharedInstance].portraitSlideOffset];
-    [self indexFromPixels:[SlideNavigationController sharedInstance].landscapeSlideOffset];
 }
-
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
 #pragma mark - SlideNavigationController Methods -
 
 - (BOOL)slideNavigationControllerShouldDisplayLeftMenu
@@ -56,5 +69,19 @@
         default:
             return 0;
     }
+}
+- (IBAction)actionClickBTChannel:(id)sender {
+}
+
+- (IBAction)actionChangedVolume:(id)sender {
+}
+
+- (IBAction)actionClickBTPlayOrPause:(id)sender {
+}
+
+- (IBAction)actionBTPrevious:(id)sender {
+}
+
+- (IBAction)actionBTNext:(id)sender {
 }
 @end

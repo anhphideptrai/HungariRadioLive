@@ -26,6 +26,23 @@
     [self.navController addChildViewController:mainVC];
     self.window.rootViewController = self.navController;
     [self.window makeKeyAndVisible];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidClose object:nil queue:nil usingBlock:^(NSNotification *note) {
+        NSString *menu = note.userInfo[@"menu"];
+        NSLog(@"Closed %@", menu);
+    }];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidOpen object:nil queue:nil usingBlock:^(NSNotification *note) {
+        NSString *menu = note.userInfo[@"menu"];
+        NSLog(@"Opened %@", menu);
+    }];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidReveal object:nil queue:nil usingBlock:^(NSNotification *note) {
+        NSString *menu = note.userInfo[@"menu"];
+        NSLog(@"Revealed %@", menu);
+    }];
+
+    
     return YES;
 }
 

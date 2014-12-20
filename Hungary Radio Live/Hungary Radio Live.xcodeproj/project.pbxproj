@@ -48,6 +48,11 @@
 		B2C94DA61A44948F00B9CA95 /* ChannelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C94DA51A44948F00B9CA95 /* ChannelsViewController.m */; };
 		B2C94DA81A4494A800B9CA95 /* iPad_ChannelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C94DA71A4494A800B9CA95 /* iPad_ChannelsViewController.xib */; };
 		B2C94DAA1A4494C000B9CA95 /* iPhone_ChannelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C94DA91A4494C000B9CA95 /* iPhone_ChannelsViewController.xib */; };
+		B2C94DAD1A45332600B9CA95 /* NavbarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C94DAB1A45332600B9CA95 /* NavbarBackground.png */; };
+		B2C94DAE1A45332600B9CA95 /* NavbarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C94DAC1A45332600B9CA95 /* NavbarBackground@2x.png */; };
+		B2C94DB41A45492100B9CA95 /* channel-list.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C94DB11A45492100B9CA95 /* channel-list.png */; };
+		B2C94DB51A45492100B9CA95 /* channel-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C94DB21A45492100B9CA95 /* channel-list@2x.png */; };
+		B2C94DB61A45492100B9CA95 /* channel-list@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C94DB31A45492100B9CA95 /* channel-list@3x.png */; };
 		BF6C6B02266DBB9594FE65F8 /* libPods-Hungary Radio Live.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860DE5E5C5541AE954AD6101 /* libPods-Hungary Radio Live.a */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +108,11 @@
 		B2C94DA51A44948F00B9CA95 /* ChannelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChannelsViewController.m; path = ViewControllers/ChannelsViewController/ChannelsViewController.m; sourceTree = "<group>"; };
 		B2C94DA71A4494A800B9CA95 /* iPad_ChannelsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPad_ChannelsViewController.xib; path = ViewControllers/ChannelsViewController/iPad_ChannelsViewController.xib; sourceTree = "<group>"; };
 		B2C94DA91A4494C000B9CA95 /* iPhone_ChannelsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPhone_ChannelsViewController.xib; path = ViewControllers/ChannelsViewController/iPhone_ChannelsViewController.xib; sourceTree = "<group>"; };
+		B2C94DAB1A45332600B9CA95 /* NavbarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavbarBackground.png; path = Resource/Images/NavbarBackground.png; sourceTree = "<group>"; };
+		B2C94DAC1A45332600B9CA95 /* NavbarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NavbarBackground@2x.png"; path = "Resource/Images/NavbarBackground@2x.png"; sourceTree = "<group>"; };
+		B2C94DB11A45492100B9CA95 /* channel-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "channel-list.png"; path = "Resource/Images/channel-list.png"; sourceTree = "<group>"; };
+		B2C94DB21A45492100B9CA95 /* channel-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "channel-list@2x.png"; path = "Resource/Images/channel-list@2x.png"; sourceTree = "<group>"; };
+		B2C94DB31A45492100B9CA95 /* channel-list@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "channel-list@3x.png"; path = "Resource/Images/channel-list@3x.png"; sourceTree = "<group>"; };
 		C169AA8E78D8B9430F7074EF /* Pods-Hungary Radio Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hungary Radio Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hungary Radio Live/Pods-Hungary Radio Live.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -208,6 +218,11 @@
 		B2C94D5E1A44938300B9CA95 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B2C94DB11A45492100B9CA95 /* channel-list.png */,
+				B2C94DB21A45492100B9CA95 /* channel-list@2x.png */,
+				B2C94DB31A45492100B9CA95 /* channel-list@3x.png */,
+				B2C94DAB1A45332600B9CA95 /* NavbarBackground.png */,
+				B2C94DAC1A45332600B9CA95 /* NavbarBackground@2x.png */,
 				B2C94D5F1A44939200B9CA95 /* CheckSelected.png */,
 				B2C94D601A44939200B9CA95 /* CheckSelected@2x.png */,
 				B2C94D611A44939200B9CA95 /* CheckSelected@3x.png */,
@@ -324,11 +339,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C94DA81A4494A800B9CA95 /* iPad_ChannelsViewController.xib in Resources */,
+				B2C94DAD1A45332600B9CA95 /* NavbarBackground.png in Resources */,
 				B2C94D8A1A44939200B9CA95 /* PauseControl@3x.png in Resources */,
 				B2C94D9A1A44939200B9CA95 /* VolSlider@2x.png in Resources */,
 				B2C94D941A44939200B9CA95 /* VolLess@2x.png in Resources */,
 				B2C94D7E1A44939200B9CA95 /* CheckSelected@2x.png in Resources */,
 				B2C94DA21A44942D00B9CA95 /* iPhone_MainViewController.xib in Resources */,
+				B2C94DB41A45492100B9CA95 /* channel-list.png in Resources */,
 				B2C94D871A44939200B9CA95 /* Next@3x.png in Resources */,
 				B2C94D801A44939200B9CA95 /* linen_pattern.png in Resources */,
 				B2C94D8B1A44939200B9CA95 /* PlayControl.png in Resources */,
@@ -345,6 +362,7 @@
 				B2C94D851A44939200B9CA95 /* Next.png in Resources */,
 				B2C94D821A44939200B9CA95 /* linen_pattern@3x.png in Resources */,
 				B2C94D8D1A44939200B9CA95 /* PlayControl@3x.png in Resources */,
+				B2C94DB61A45492100B9CA95 /* channel-list@3x.png in Resources */,
 				B2C94D8E1A44939200B9CA95 /* Previous.png in Resources */,
 				B2C94D891A44939200B9CA95 /* PauseControl@2x.png in Resources */,
 				B2C94D881A44939200B9CA95 /* PauseControl.png in Resources */,
@@ -354,6 +372,8 @@
 				B2C94D961A44939200B9CA95 /* VolMore.png in Resources */,
 				B2C94D861A44939200B9CA95 /* Next@2x.png in Resources */,
 				B2C94D841A44939200B9CA95 /* linenBack@2x.png in Resources */,
+				B2C94DAE1A45332600B9CA95 /* NavbarBackground@2x.png in Resources */,
+				B2C94DB51A45492100B9CA95 /* channel-list@2x.png in Resources */,
 				B2C94D7D1A44939200B9CA95 /* CheckSelected.png in Resources */,
 				B2C94D7F1A44939200B9CA95 /* CheckSelected@3x.png in Resources */,
 				B2C94DAA1A4494C000B9CA95 /* iPhone_ChannelsViewController.xib in Resources */,
@@ -512,7 +532,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -526,7 +546,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
