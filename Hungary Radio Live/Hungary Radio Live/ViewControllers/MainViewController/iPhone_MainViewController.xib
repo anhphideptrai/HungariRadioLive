@@ -13,6 +13,7 @@
                 <outlet property="btPrevious" destination="lbv-N0-6ea" id="v2Y-qH-eIO"/>
                 <outlet property="sldVolume" destination="kLz-pX-GVp" id="QHx-Qb-A5c"/>
                 <outlet property="view" destination="iN0-l3-epB" id="S7E-hN-ZpW"/>
+                <outlet property="waveFormView" destination="7Uj-VC-NX3" id="WRR-UN-kaf"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -133,16 +134,27 @@
                                 <constraint firstItem="g1r-Ty-1NS" firstAttribute="leading" secondItem="lbv-N0-6ea" secondAttribute="trailing" constant="30" id="pLm-Vc-n73"/>
                             </constraints>
                         </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Uj-VC-NX3" customClass="SCSiriWaveformView">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="fem-F7-tfw"/>
+                            </constraints>
+                        </view>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="Co9-gU-loV" secondAttribute="bottom" id="QcQ-Mn-myK"/>
+                        <constraint firstItem="Co9-gU-loV" firstAttribute="top" secondItem="7Uj-VC-NX3" secondAttribute="bottom" id="Yhx-TQ-N0n"/>
                         <constraint firstAttribute="height" constant="150" id="Zym-zo-uO6"/>
                         <constraint firstItem="BML-Eo-iha" firstAttribute="top" secondItem="ies-sN-c5w" secondAttribute="top" id="bx7-qK-5qw"/>
                         <constraint firstAttribute="trailing" secondItem="Co9-gU-loV" secondAttribute="trailing" constant="25" id="d0E-Cs-3Q4"/>
                         <constraint firstAttribute="trailing" secondItem="BML-Eo-iha" secondAttribute="trailing" id="fAk-tE-gDf"/>
+                        <constraint firstAttribute="trailing" secondItem="7Uj-VC-NX3" secondAttribute="trailing" id="fwt-Hp-EwX"/>
                         <constraint firstItem="BML-Eo-iha" firstAttribute="leading" secondItem="ies-sN-c5w" secondAttribute="leading" id="hDa-wG-eqv"/>
+                        <constraint firstItem="7Uj-VC-NX3" firstAttribute="leading" secondItem="ies-sN-c5w" secondAttribute="leading" id="n4G-2V-0wg"/>
                         <constraint firstAttribute="bottom" secondItem="BML-Eo-iha" secondAttribute="bottom" id="ta0-Ys-MVl"/>
                         <constraint firstItem="Co9-gU-loV" firstAttribute="leading" secondItem="ies-sN-c5w" secondAttribute="leading" constant="25" id="ukJ-gF-b11"/>
                     </constraints>
