@@ -54,6 +54,49 @@
     [self setupTimer];
     [self updateControls];
 }
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
+    [self becomeFirstResponder];
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [[UIApplication sharedApplication] endReceivingRemoteControlEvents];
+    [self resignFirstResponder];
+}
+-(void)remoteControlReceivedWithEvent:(UIEvent *)receivedEvent
+{
+    NSLog(@"received event!");
+    if (receivedEvent.type == UIEventTypeRemoteControl)
+    {
+        switch (receivedEvent.subtype)
+        {
+            case UIEventSubtypeRemoteControlPlay:
+                if (_audioPlayer) {
+                    [_audioPlayer resume];
+                }
+                break;
+                
+            case  UIEventSubtypeRemoteControlPause:
+                // pause the video
+                if (_audioPlayer) {
+                    [_audioPlayer pause];
+                }
+                break;
+                
+            case  UIEventSubtypeRemoteControlNextTrack:
+                [self actionBTNext:_btNext];
+                break;
+                
+            case  UIEventSubtypeRemoteControlPreviousTrack:
+                [self actionBTNext:_btPrevious];
+                break;
+                
+            default:
+                break;
+        }
+    }
+}
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
     return UIStatusBarStyleLightContent;

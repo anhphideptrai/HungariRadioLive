@@ -10,6 +10,7 @@
 #import "ChannelsViewController.h"
 #import "SlideNavigationController.h"
 #import "MainViewController.h"
+#import <AVFoundation/AVFoundation.h>
 @interface AppDelegate ()
 
 @end
@@ -18,6 +19,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSError* error;
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&error];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.navController = [[SlideNavigationController alloc] init];
     ChannelsViewController *leftMenu = [[ChannelsViewController alloc] initWithNibName:CHANNELS_XIB_FILE_NAME bundle:nil];
