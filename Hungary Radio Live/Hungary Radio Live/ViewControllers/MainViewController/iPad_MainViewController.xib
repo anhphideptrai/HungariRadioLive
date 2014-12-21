@@ -71,7 +71,7 @@
                                         <constraint firstAttribute="width" constant="300" id="Aym-1X-j5P"/>
                                         <constraint firstAttribute="height" constant="30" id="fKy-K9-zHW"/>
                                     </constraints>
-                                    <color key="minimumTrackTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="minimumTrackTintColor" red="0.2274509804" green="0.75686274509999996" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
                                     <connections>
                                         <action selector="actionChangedVolume:" destination="-1" eventType="valueChanged" id="h6K-03-xHI"/>
                                     </connections>
@@ -85,6 +85,7 @@
                                     <state key="normal" image="PlayControl.png">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
+                                    <state key="highlighted" image="PlayControl_Active.png"/>
                                     <connections>
                                         <action selector="actionClickBTPlayOrPause:" destination="-1" eventType="touchUpInside" id="30v-Cx-K1U"/>
                                     </connections>
@@ -98,6 +99,8 @@
                                     <state key="normal" image="Previous.png">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
+                                    <state key="disabled" image="Previous_Disabled.png"/>
+                                    <state key="highlighted" image="Previous_Active.png"/>
                                     <connections>
                                         <action selector="actionBTPrevious:" destination="-1" eventType="touchUpInside" id="OUe-FU-nhX"/>
                                     </connections>
@@ -111,6 +114,8 @@
                                     <state key="normal" image="Next.png">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
+                                    <state key="disabled" image="Next_Disabled.png"/>
+                                    <state key="highlighted" image="Next_Active.png"/>
                                     <connections>
                                         <action selector="actionBTNext:" destination="-1" eventType="touchUpInside" id="g96-Fe-iIx"/>
                                     </connections>
@@ -212,9 +217,14 @@
     </objects>
     <resources>
         <image name="NavbarBackground.png" width="320" height="64"/>
-        <image name="Next.png" width="40" height="46"/>
-        <image name="PlayControl.png" width="50" height="46"/>
-        <image name="Previous.png" width="40" height="46"/>
+        <image name="Next.png" width="86" height="86"/>
+        <image name="Next_Active.png" width="86" height="86"/>
+        <image name="Next_Disabled.png" width="86" height="86"/>
+        <image name="PlayControl.png" width="130" height="130"/>
+        <image name="PlayControl_Active.png" width="130" height="130"/>
+        <image name="Previous.png" width="86" height="86"/>
+        <image name="Previous_Active.png" width="86" height="86"/>
+        <image name="Previous_Disabled.png" width="86" height="86"/>
         <image name="ToolBackground.png" width="1" height="44"/>
         <image name="VolLess.png" width="27" height="34"/>
         <image name="VolMore.png" width="27" height="34"/>

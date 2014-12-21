@@ -37,7 +37,7 @@
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
     [self.view setBackgroundColor:[UIColor grayColor]];
     [self indexFromPixels:[SlideNavigationController sharedInstance].portraitSlideOffset];
-    [_waveFormView setWaveColor:_orange_color_];
+    [_waveFormView setWaveColor:_blue_color_];
     [_waveFormView setPrimaryWaveLineWidth:1.f];
     [_waveFormView setSecondaryWaveLineWidth:.5f];
     [_waveFormView setFrequency:10.f];
@@ -164,6 +164,7 @@
     if (_audioPlayer.state == STKAudioPlayerStatePaused)
     {
         [_btPlayOrPause setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"PauseControl" ofType:@"png"]] forState:UIControlStateNormal];
+        [_btPlayOrPause setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"PauseControl_Active" ofType:@"png"]] forState:UIControlStateHighlighted];
         [_audioPlayer resume];
         
     }
@@ -189,13 +190,16 @@
     if (_audioPlayer == nil)
     {
         [_btPlayOrPause setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"PlayControl" ofType:@"png"]] forState:UIControlStateNormal];
+        [_btPlayOrPause setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"PlayControl_Active" ofType:@"png"]] forState:UIControlStateHighlighted];
     }else if (_audioPlayer.state == STKAudioPlayerStatePlaying)
     {
-        [_btPlayOrPause setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"PauseControl" ofType:@"png"]] forState:UIControlStateNormal];;
+        [_btPlayOrPause setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"PauseControl" ofType:@"png"]] forState:UIControlStateNormal];
+        [_btPlayOrPause setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"PauseControl_Active" ofType:@"png"]] forState:UIControlStateHighlighted];
     }
     else
     {
         [_btPlayOrPause setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"PlayControl" ofType:@"png"]] forState:UIControlStateNormal];
+        [_btPlayOrPause setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"PlayControl_Active" ofType:@"png"]] forState:UIControlStateHighlighted];
     }
     
     [self tick];
