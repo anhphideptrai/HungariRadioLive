@@ -11,9 +11,10 @@
                 <outlet property="btNext" destination="KgV-Nb-e9k" id="bBu-hW-Ric"/>
                 <outlet property="btPlayOrPause" destination="j3f-b4-d8E" id="QsM-d7-bRc"/>
                 <outlet property="btPrevious" destination="eqd-gz-GlY" id="6U8-hi-wU8"/>
+                <outlet property="lbChannelInfo" destination="Nmo-VN-HqA" id="UsQ-Pw-mNg"/>
                 <outlet property="sldVolume" destination="JaR-Tf-Xbo" id="xns-Fh-GT7"/>
                 <outlet property="view" destination="iN0-l3-epB" id="QgQ-hh-r21"/>
-                <outlet property="waveFormView" destination="bCJ-Rr-SmH" id="jJy-J2-U0W"/>
+                <outlet property="waveFormView" destination="iVg-IX-ywC" id="TD4-BN-eyE"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -128,38 +129,81 @@
                                 <constraint firstItem="j3f-b4-d8E" firstAttribute="top" secondItem="xqi-fj-Dg9" secondAttribute="top" constant="10" id="w74-Fq-u0d"/>
                             </constraints>
                         </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nmo-VN-HqA" customClass="MarqueeLabel">
+                            <rect key="frame" x="0.0" y="5" width="600" height="40"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="xqi-fj-Dg9" secondAttribute="bottom" id="GcC-gA-2RZ"/>
                         <constraint firstItem="xqi-fj-Dg9" firstAttribute="leading" secondItem="x1A-ce-uFI" secondAttribute="leading" constant="30" id="HWj-OQ-J6s"/>
+                        <constraint firstItem="Nmo-VN-HqA" firstAttribute="top" secondItem="x1A-ce-uFI" secondAttribute="top" constant="5" id="KsA-4G-b8V"/>
+                        <constraint firstItem="Nmo-VN-HqA" firstAttribute="leading" secondItem="x1A-ce-uFI" secondAttribute="leading" id="RPf-lc-ogD"/>
                         <constraint firstAttribute="height" constant="150" id="SBY-0r-jpr"/>
                         <constraint firstAttribute="bottom" secondItem="XT7-r1-5zq" secondAttribute="bottom" id="Wme-Co-w6w"/>
+                        <constraint firstAttribute="trailing" secondItem="Nmo-VN-HqA" secondAttribute="trailing" id="Wo3-jJ-eYK"/>
                         <constraint firstItem="XT7-r1-5zq" firstAttribute="top" secondItem="x1A-ce-uFI" secondAttribute="top" id="bdP-NE-qQp"/>
                         <constraint firstItem="XT7-r1-5zq" firstAttribute="leading" secondItem="x1A-ce-uFI" secondAttribute="leading" id="beY-Ux-MyS"/>
                         <constraint firstAttribute="trailing" secondItem="XT7-r1-5zq" secondAttribute="trailing" id="i5f-9g-MGL"/>
                         <constraint firstAttribute="trailing" secondItem="xqi-fj-Dg9" secondAttribute="trailing" constant="30" id="ugY-LV-aTE"/>
+                        <constraint firstItem="xqi-fj-Dg9" firstAttribute="top" secondItem="Nmo-VN-HqA" secondAttribute="bottom" constant="5" id="wXW-vj-bAe"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCJ-Rr-SmH" customClass="SCSiriWaveformView">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_wave.png" translatesAutoresizingMaskIntoConstraints="NO" id="KRw-Ew-mSP">
                     <rect key="frame" x="0.0" y="64" width="600" height="386"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCJ-Rr-SmH">
+                    <rect key="frame" x="0.0" y="64" width="600" height="386"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_speaker.png" translatesAutoresizingMaskIntoConstraints="NO" id="tod-zb-BYF">
+                            <rect key="frame" x="175" y="68" width="250" height="250"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="250" id="N6Y-Xt-Lp6"/>
+                                <constraint firstAttribute="width" constant="250" id="f18-TU-VAb"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iVg-IX-ywC" customClass="SCSiriWaveformView">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="386"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="iVg-IX-ywC" firstAttribute="leading" secondItem="bCJ-Rr-SmH" secondAttribute="leading" id="N2V-vY-R7g"/>
+                        <constraint firstItem="iVg-IX-ywC" firstAttribute="top" secondItem="bCJ-Rr-SmH" secondAttribute="top" id="bVy-cH-WXn"/>
+                        <constraint firstAttribute="centerX" secondItem="tod-zb-BYF" secondAttribute="centerX" id="cF9-oB-3Zm"/>
+                        <constraint firstAttribute="trailing" secondItem="iVg-IX-ywC" secondAttribute="trailing" id="hp4-j6-GOk"/>
+                        <constraint firstAttribute="centerY" secondItem="tod-zb-BYF" secondAttribute="centerY" id="pbs-ar-BBI"/>
+                        <constraint firstAttribute="bottom" secondItem="iVg-IX-ywC" secondAttribute="bottom" id="y5f-8S-Hlk"/>
+                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="6m2-Oc-gGx" secondAttribute="bottom" id="5IW-an-QQE"/>
                 <constraint firstItem="bCJ-Rr-SmH" firstAttribute="top" secondItem="kLm-j2-dtw" secondAttribute="bottom" id="8jK-qs-fmQ"/>
+                <constraint firstItem="KRw-Ew-mSP" firstAttribute="top" secondItem="kLm-j2-dtw" secondAttribute="bottom" id="DBN-cO-KO5"/>
                 <constraint firstItem="kLm-j2-dtw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EXD-zV-k3j"/>
                 <constraint firstAttribute="trailing" secondItem="x1A-ce-uFI" secondAttribute="trailing" id="FYI-vG-BYK"/>
+                <constraint firstItem="KRw-Ew-mSP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Juc-BA-Srz"/>
                 <constraint firstItem="6m2-Oc-gGx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MRs-Kz-TfE"/>
                 <constraint firstAttribute="trailing" secondItem="6m2-Oc-gGx" secondAttribute="trailing" id="SSd-d1-2Fa"/>
                 <constraint firstAttribute="trailing" secondItem="bCJ-Rr-SmH" secondAttribute="trailing" id="X2H-nU-VZX"/>
                 <constraint firstItem="x1A-ce-uFI" firstAttribute="top" secondItem="bCJ-Rr-SmH" secondAttribute="bottom" id="Yv1-as-N1S"/>
                 <constraint firstAttribute="trailing" secondItem="kLm-j2-dtw" secondAttribute="trailing" id="fY9-pG-E2I"/>
+                <constraint firstAttribute="trailing" secondItem="KRw-Ew-mSP" secondAttribute="trailing" id="lR6-fk-pL6"/>
                 <constraint firstItem="x1A-ce-uFI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oI3-9N-3fl"/>
                 <constraint firstAttribute="bottom" secondItem="x1A-ce-uFI" secondAttribute="bottom" id="qZM-Jy-uyE"/>
+                <constraint firstItem="x1A-ce-uFI" firstAttribute="top" secondItem="KRw-Ew-mSP" secondAttribute="bottom" id="rDd-IV-4Yo"/>
                 <constraint firstItem="6m2-Oc-gGx" firstAttribute="top" secondItem="kLm-j2-dtw" secondAttribute="bottom" id="rHI-k7-GPi"/>
                 <constraint firstItem="bCJ-Rr-SmH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rV1-FF-leM"/>
                 <constraint firstItem="kLm-j2-dtw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rli-Jk-AaP"/>
@@ -174,7 +218,9 @@
         <image name="ToolBackground.png" width="1" height="44"/>
         <image name="VolLess.png" width="27" height="34"/>
         <image name="VolMore.png" width="27" height="34"/>
+        <image name="background_wave.png" width="1536" height="1194"/>
         <image name="channel-list.png" width="28" height="19"/>
+        <image name="icon_speaker.png" width="697" height="694"/>
         <image name="linen_pattern.png" width="435" height="435"/>
     </resources>
 </document>
