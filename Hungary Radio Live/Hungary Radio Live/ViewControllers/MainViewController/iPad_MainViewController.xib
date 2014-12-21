@@ -13,6 +13,7 @@
                 <outlet property="btPrevious" destination="eqd-gz-GlY" id="6U8-hi-wU8"/>
                 <outlet property="sldVolume" destination="JaR-Tf-Xbo" id="xns-Fh-GT7"/>
                 <outlet property="view" destination="iN0-l3-epB" id="QgQ-hh-r21"/>
+                <outlet property="waveFormView" destination="bCJ-Rr-SmH" id="jJy-J2-U0W"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -140,18 +141,27 @@
                         <constraint firstAttribute="trailing" secondItem="xqi-fj-Dg9" secondAttribute="trailing" constant="30" id="ugY-LV-aTE"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCJ-Rr-SmH" customClass="SCSiriWaveformView">
+                    <rect key="frame" x="0.0" y="64" width="600" height="386"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="6m2-Oc-gGx" secondAttribute="bottom" id="5IW-an-QQE"/>
+                <constraint firstItem="bCJ-Rr-SmH" firstAttribute="top" secondItem="kLm-j2-dtw" secondAttribute="bottom" id="8jK-qs-fmQ"/>
                 <constraint firstItem="kLm-j2-dtw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EXD-zV-k3j"/>
                 <constraint firstAttribute="trailing" secondItem="x1A-ce-uFI" secondAttribute="trailing" id="FYI-vG-BYK"/>
                 <constraint firstItem="6m2-Oc-gGx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MRs-Kz-TfE"/>
                 <constraint firstAttribute="trailing" secondItem="6m2-Oc-gGx" secondAttribute="trailing" id="SSd-d1-2Fa"/>
+                <constraint firstAttribute="trailing" secondItem="bCJ-Rr-SmH" secondAttribute="trailing" id="X2H-nU-VZX"/>
+                <constraint firstItem="x1A-ce-uFI" firstAttribute="top" secondItem="bCJ-Rr-SmH" secondAttribute="bottom" id="Yv1-as-N1S"/>
                 <constraint firstAttribute="trailing" secondItem="kLm-j2-dtw" secondAttribute="trailing" id="fY9-pG-E2I"/>
                 <constraint firstItem="x1A-ce-uFI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oI3-9N-3fl"/>
                 <constraint firstAttribute="bottom" secondItem="x1A-ce-uFI" secondAttribute="bottom" id="qZM-Jy-uyE"/>
                 <constraint firstItem="6m2-Oc-gGx" firstAttribute="top" secondItem="kLm-j2-dtw" secondAttribute="bottom" id="rHI-k7-GPi"/>
+                <constraint firstItem="bCJ-Rr-SmH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rV1-FF-leM"/>
                 <constraint firstItem="kLm-j2-dtw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rli-Jk-AaP"/>
             </constraints>
         </view>

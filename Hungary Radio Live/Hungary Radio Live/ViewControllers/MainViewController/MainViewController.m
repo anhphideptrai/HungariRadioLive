@@ -35,16 +35,17 @@
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
     [self.view setBackgroundColor:[UIColor grayColor]];
     [self indexFromPixels:[SlideNavigationController sharedInstance].portraitSlideOffset];
-    [_waveFormView setNumberOfWaves:10];
     [_waveFormView setWaveColor:_orange_color_];
     [_waveFormView setPrimaryWaveLineWidth:1.f];
     [_waveFormView setSecondaryWaveLineWidth:.5f];
+    [_waveFormView setFrequency:10.f];
     
     
     
-    _audioPlayer = [[STKAudioPlayer alloc] initWithOptions:(STKAudioPlayerOptions){ .flushQueueOnSeek = YES, .enableVolumeMixer = NO, .equalizerBandFrequencies = {50, 100, 200, 400, 800, 1600, 2600, 16000} }];
+    _audioPlayer = [[STKAudioPlayer alloc] initWithOptions:(STKAudioPlayerOptions){ .flushQueueOnSeek = YES, .enableVolumeMixer = YES, .equalizerBandFrequencies = {50, 100, 200, 400, 800, 1600, 2600, 16000} }];
     _audioPlayer.meteringEnabled = YES;
-    _audioPlayer.volume = 1;
+    _audioPlayer.volume = .5f;
+    [_sldVolume setValue:.5f];
     _audioPlayer.delegate = self;
     
     NSURL* url = [NSURL URLWithString:@"http://stream001.radio.hu:8080/mr1.mp3"];
@@ -93,9 +94,13 @@
     }
 }
 - (IBAction)actionClickBTChannel:(id)sender {
+    [[SlideNavigationController sharedInstance] openMenu:MenuLeft withCompletion:^{}];
 }
 
 - (IBAction)actionChangedVolume:(id)sender {
+    if (_audioPlayer) {
+        _audioPlayer.volume = _sldVolume.value;
+    }
 }
 
 - (IBAction)actionClickBTPlayOrPause:(id)sender {
@@ -156,7 +161,7 @@
         
         return;
     }
-    CGFloat level = _audioPlayer.state == STKAudioPlayerStatePlaying ? ([_audioPlayer averagePowerInDecibelsForChannel:1] + 60)/60 : 0.1f;
+    CGFloat level = _audioPlayer.state == STKAudioPlayerStatePlaying ? pow(10, ([_audioPlayer averagePowerInDecibelsForChannel:1])/60 ): 0;
     [_waveFormView updateWithLevel:level];
 }
 
