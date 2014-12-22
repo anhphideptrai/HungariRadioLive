@@ -10,7 +10,6 @@
 #import <STKAudioPlayer.h>
 #import "SampleQueueId.h"
 #import <SCSiriWaveformView.h>
-#import <MarqueeLabel.h>
 @interface MainViewController ()<STKAudioPlayerDelegate>{
     NSTimer* timer;
 }
@@ -20,7 +19,6 @@
 @property (strong, nonatomic) IBOutlet UIButton *btPrevious;
 @property (strong, nonatomic) IBOutlet UIButton *btNext;
 @property (strong, nonatomic) IBOutlet SCSiriWaveformView *waveFormView;
-@property (strong, nonatomic) IBOutlet MarqueeLabel *lbChannelInfo;
 @property (nonatomic, strong) STKAudioPlayer *audioPlayer;
 
 - (IBAction)actionClickBTChannel:(id)sender;
@@ -50,18 +48,11 @@
     [_sldVolume setValue:.5f];
     _audioPlayer.delegate = self;
     
-    NSURL* url = [NSURL URLWithString:@"http://vprbbc.streamguys.net/vprbbc24-nopreroll"];
+    NSURL* url = [NSURL URLWithString:@"http://stream001.radio.hu:8080/mr1.mp3"];
     STKDataSource* dataSource = [STKAudioPlayer dataSourceFromURL:url];
     [_audioPlayer setDataSource:dataSource withQueueItemId:[[SampleQueueId alloc] initWithUrl:url andCount:0]];
     [self setupTimer];
     [self updateControls];
-    
-    _lbChannelInfo.marqueeType = MLContinuous;
-    _lbChannelInfo.scrollDuration = 10.0f;
-    _lbChannelInfo.fadeLength = 10.0f;
-    _lbChannelInfo.trailingBuffer = 30.0f;
-    _lbChannelInfo.textColor = _orange_color_;
-    _lbChannelInfo.text = @"Thien Nguyen - Hungary Radio Live                      Thien Nguyen - Hungary Radio Live                      ";
 }
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];

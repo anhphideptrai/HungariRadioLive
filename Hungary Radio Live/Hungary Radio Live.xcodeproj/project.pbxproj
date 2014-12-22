@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B221F24E1A46DC44004E91FE /* background_wave.png in Resources */ = {isa = PBXBuildFile; fileRef = B221F24D1A46DC44004E91FE /* background_wave.png */; };
-		B221F2501A46E738004E91FE /* icon_speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = B221F24F1A46E738004E91FE /* icon_speaker.png */; };
 		B2C94D331A4484A200B9CA95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C94D321A4484A200B9CA95 /* main.m */; };
 		B2C94D361A4484A200B9CA95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C94D351A4484A200B9CA95 /* AppDelegate.m */; };
 		B2C94D3E1A4484A200B9CA95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C94D3D1A4484A200B9CA95 /* Images.xcassets */; };
@@ -62,8 +60,6 @@
 /* Begin PBXFileReference section */
 		079CBC1A40A030B924A03942 /* Pods-Hungary Radio Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hungary Radio Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hungary Radio Live/Pods-Hungary Radio Live.debug.xcconfig"; sourceTree = "<group>"; };
 		860DE5E5C5541AE954AD6101 /* libPods-Hungary Radio Live.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hungary Radio Live.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B221F24D1A46DC44004E91FE /* background_wave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_wave.png; path = Resource/Images/background_wave.png; sourceTree = "<group>"; };
-		B221F24F1A46E738004E91FE /* icon_speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_speaker.png; path = Resource/Images/icon_speaker.png; sourceTree = "<group>"; };
 		B2C94D2D1A4484A200B9CA95 /* Hungary Radio Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hungary Radio Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C94D311A4484A200B9CA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2C94D321A4484A200B9CA95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -227,8 +223,6 @@
 		B2C94D5E1A44938300B9CA95 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				B221F24F1A46E738004E91FE /* icon_speaker.png */,
-				B221F24D1A46DC44004E91FE /* background_wave.png */,
 				B2C94DB11A45492100B9CA95 /* channel-list.png */,
 				B2C94DB21A45492100B9CA95 /* channel-list@2x.png */,
 				B2C94DB31A45492100B9CA95 /* channel-list@3x.png */,
@@ -384,8 +378,6 @@
 				B2C94D881A44939200B9CA95 /* PauseControl.png in Resources */,
 				B2C94D921A44939200B9CA95 /* ToolBackground@2x.png in Resources */,
 				B2C94D911A44939200B9CA95 /* ToolBackground.png in Resources */,
-				B221F24E1A46DC44004E91FE /* background_wave.png in Resources */,
-				B221F2501A46E738004E91FE /* icon_speaker.png in Resources */,
 				B2C94D8F1A44939200B9CA95 /* Previous@2x.png in Resources */,
 				B2C94D961A44939200B9CA95 /* VolMore.png in Resources */,
 				B2C94D861A44939200B9CA95 /* Next@2x.png in Resources */,
